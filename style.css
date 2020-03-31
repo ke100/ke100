@@ -40,23 +40,9 @@
     border-radius: 25px;
   }
   
-  .lucky > div {
-    padding: 10px;
-  }
-
   body {
       font-family: 'arial', police2, police3, police4;
       font-size: 12px;
-  }
-
-  #bas {
-    display: block;
-    position: absolute;
-    color: greenyellow;
-    top: 50%;
-    left: 42%;
-    padding: 0;
-    align-items: center;
   }
 
   button {
@@ -66,3 +52,28 @@
     margin: 3px;
     background-color: white;
   }
+
+  input {
+    writing-mode: horizontal-tb;
+    text-rendering: auto;
+
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 11px system-ui;
+    padding: 1px;
+    border-radius: 25px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+    box-shadow: 3px 3px 8px rgb(36, 34, 34);
+}
